@@ -1,0 +1,32 @@
+.background{
+  background-color: rgba(255, 255, 255, 0.266);
+  height:60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: 2px solid  rgba(128, 128, 128, 0.403);
+}
+.buttons{
+  padding:8px;
+  border-radius: 11px;
+  background-color: transparent;
+  transition: 1s ease-in;
+  border:1px solid rgba(128, 128, 128, 0.403);
+  font-weight:lighter;
+}
+.buttons:hover{
+  background-color: rgba(0, 0, 128, 0.63);
+  color:white;
+  cursor:pointer;
+}
+.buttonLearnMore{
+  margin-right:10px;
+
+
+}
+.buttonContactUs:hover{
+  background-color: rgba(210, 105, 30, 0.197);
+}

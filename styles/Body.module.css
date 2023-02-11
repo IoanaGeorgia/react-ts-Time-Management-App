@@ -1,0 +1,51 @@
+.offersBody{
+  padding:20px;
+  padding-top: 50px;;
+  padding-bottom: 50px;
+  background-color: black;
+  color:rgb(255, 255, 255);
+  display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+}
+.offerBody{
+  padding-left:15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  border:2px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin:15px;
+ 
+}
+.buttons{
+  padding:8px;
+  border-radius: 11px;
+  border:1px solid rgba(128, 128, 128, 0.403);
+  font-weight:lighter;
+}
+.buttons:hover{
+  cursor: pointer;
+}
+.offersInsideStyles{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+.offersInsideStyles *{
+  margin-top:20px;
+  text-align: center;
+}
+.offersBody button{
+  margin-bottom:30px;
+  font-weight: bold;
+}
+.offerBody p{
+  font-size:11px;
+  text-align: center;
+}
