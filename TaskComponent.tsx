@@ -1,13 +1,12 @@
 import * as React from 'react';
 import style from './styles/Body.module.css'
-import TaskComponent from './TaskComponent'
 
 
 
-export default function Tasks() {
+export default function TaskComponent({name, isOn}) {
   return (
     <div className={style.offersBody}>
-        <TaskComponent name={'ToDos'} isOn={true} />
+      <span>{name}</span>
     </div>
   );
 }
