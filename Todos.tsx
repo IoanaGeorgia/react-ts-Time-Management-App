@@ -3,10 +3,10 @@ import style from './styles/Component.module.css'
 
 
 
-export default function Calendar() {
+export default function Todos() {
   return (
-    <div className={style.calendar}>
-        CAlendar
+    <div style={{color:'white'}}>
+      gjhgg
     </div>
   );
 }
