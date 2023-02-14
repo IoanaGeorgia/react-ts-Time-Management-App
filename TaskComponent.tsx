@@ -31,7 +31,7 @@ export default function TaskComponent({name,icon, isOn, color}) {
     </div>
     </div>
         {expand && name=='ToDos' && (
-          <Todos />
+          <Todos color={color} />
         )}
         {expand && name=='Spending' && (
           <h1>bbbbbbbb</h1>
