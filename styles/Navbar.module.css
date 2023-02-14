@@ -13,20 +13,18 @@
   padding:8px;
   border-radius: 11px;
   background-color: transparent;
-  transition: 1s ease-in;
-  border:1px solid rgba(128, 128, 128, 0.403);
+  transition: 0.5s;
+  border:1px solid rgba(0, 0, 128, 0.63);
   font-weight:lighter;
 }
-.buttons:hover{
+.buttons:hover, .buttonContactUs:hover{
   background-color: rgba(0, 0, 128, 0.63);
   color:white;
   cursor:pointer;
 }
 .buttonLearnMore{
   margin-right:10px;
-
-
 }
-.buttonContactUs:hover{
-  background-color: rgba(210, 105, 30, 0.197);
+h3{
+  color:  rgba(0, 0, 128, 0.63)
 }
