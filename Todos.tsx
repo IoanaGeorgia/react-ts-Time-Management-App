@@ -27,17 +27,17 @@ export default function Todos({color}) {
   };
   return (
     <div className={style.wrapperMain} style={{color:'white'}}>
-      <div>Counter: </div>
+      <div>Counter:{todoList.length}</div>
       <div className={style.wrapper}>
 
-        <input style={{backgroundColor:'black', border:'2px solid grey', padding:'3px', borderRadius:'10px'}} value={input}  type='text' onInput={(e) =>setInput(e.target.value)} onKeyDown={addTask} />    
+        <input style={{backgroundColor:'black', border:'2px solid grey', padding:'3px', color:'white', borderRadius:'10px'}} value={input}  type='text' onInput={(e) =>setInput(e.target.value)} onKeyDown={addTask} />    
       
 
         <div>
   {visible && todoList.map((todo) => {
    return (
     
-      <div>
+      <div style={{width:'100%', marginTop:'10px'}}>
       <span>➜</span> 
       <span className={style.task}>
       {todo.task}
@@ -47,9 +47,7 @@ export default function Todos({color}) {
    
     );
   })}
- </div>
-
-        
+ </div>        
       </div>
     </div>
   );

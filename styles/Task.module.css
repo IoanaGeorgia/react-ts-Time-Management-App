@@ -8,15 +8,13 @@
 .task{
   margin-left:20px;
   margin-top:20px;
+
 }
 .wrapper{
   margin:20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
 }
 .wrapperMain{
+  margin-top:50px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
