@@ -2,6 +2,7 @@ import * as React from 'react';
 import { useState } from 'react';
 import style from './styles/Component.module.css'
 import Todos from './Todos'
+import Spending from './Spending'
 
 
 
@@ -34,7 +35,7 @@ export default function TaskComponent({name,icon, isOn, color}) {
           <Todos color={color} />
         )}
         {expand && name=='Spending' && (
-          <h1>bbbbbbbb</h1>
+          <Spending color={color} />
         )}
                 {expand && name=='Sleeping Schedule' && (
           <h1>bbbbbbbb</h1>
