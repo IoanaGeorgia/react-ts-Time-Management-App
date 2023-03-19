@@ -20,7 +20,30 @@ export default function  Spending({color}){
     let amountIncrease = amount + 10
     setAmount(amountIncrease);
   }
-  var rotate = 'rotate('+amount+'*2deg)';
+  const Parentdiv = {
+    height: '8vw',
+    width: '8vw',
+    borderRadius: 40,
+    margin: 50,
+    background: `conic-gradient(${color} ${amount*2}deg, transparent ${amount/amount}deg)`,
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+
+  }
+  
+  const Childdiv = {
+    height: '6vw',
+    width: '6vw',
+   borderRadius:40,
+    backgroundColor:'black',
+    color:"white",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+
+  }
+
 
 
   return(
@@ -40,8 +63,8 @@ export default function  Spending({color}){
       </div>
       <div className={style.wrapperMain}><div style={{marginBottom:'20px', fontWeight:'bold'}}> Percent </div>
       <div style={{marginBottom:'40px'}}>
-        <div className={style.circleWrapper}>
-          <div className={style.circleInner} >600</div>
+        <div style={Parentdiv}>
+          <div style={Childdiv} >600</div>
         </div>
         Circle here</div>
       </div>
