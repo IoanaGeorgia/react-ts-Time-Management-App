@@ -26,3 +26,33 @@
   justify-content: space-between;
   align-items: center;
 }
+.amountButton{
+  width:5vh;
+  margin-left:7px;
+  margin-right:7px;
+  background-color: transparent;
+  border-width: 1px;
+  border-radius: 2px;
+  border-style: solid;
+  padding:2px;
+}
+.circleWrapper{
+  position: relative;
+  background-color: blue;
+  height:8vw;
+  width:8vw;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circleInner{
+  position: absolute;
+  width:6vw;
+  height:6vw;
+  border-radius: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
