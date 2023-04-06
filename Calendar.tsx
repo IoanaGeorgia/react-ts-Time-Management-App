@@ -6,6 +6,9 @@ import style from './styles/Component.module.css'
 
 export default function Calendar() {
   const [expand, setExpand] =useState(false)
+  const date= new Date()
+  const day = date.getDate()
+
   return (
     <div className={style.calendar}>
       <button className='buttonToggleCalendar' onClick={()=>setExpand(!expand)}>Open Calendar</button>
@@ -16,7 +19,8 @@ export default function Calendar() {
 
         <div className={style.today}>
 
-            <div style={{color:'pink', fontWeight:'bolder', fontSize:'20px'}}
+            <div style={{color:'pink', fontWeight:'bolder', fontSize:'20px'}}>
+            {day}
             </div>
           </div>
     </div>
