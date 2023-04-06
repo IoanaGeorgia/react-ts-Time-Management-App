@@ -1,3 +1,14 @@
+.calendar{
+  background-color: pink;
+  width:300px;
+  height:300px;
+  margin-top: 150px;
+  margin-left:60px;
+  margin-right:45px;
+}
+.buttonToggleCalendar{
+  color:black;
+}
 .componentLayout{
   display: flex;
   justify-content: space-between;
@@ -95,12 +106,4 @@ input:checked + .buttonSlider:before {
 }
 .active, .collapseButton:hover {
   cursor:pointer;
-}
-.calendar{
-  background-color: pink;
-  width:300px;
-  height:300px;
-  margin-top: 150px;
-  margin-left:60px;
-  margin-right:45px;
 }

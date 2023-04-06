@@ -7,7 +7,7 @@ import Spending from './Spending'
 
 
 export default function TaskComponent({name,icon, isOn, color}) {
-  const [button, setButton] = useState(true);
+  const [button, setButton] = useState(true)
   const [expand, setExpand] =useState(false)
 
   return (
